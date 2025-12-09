@@ -1,97 +1,81 @@
-# Aerospace Quiz CLI
+# 🎓 Aerospace-Knowledge-Quiz-CLI - Test Your Aerospace Knowledge Easily
 
-A small, self-contained **command-line quiz** about basic aerospace and rocket concepts.
+## 🚀 Getting Started
+Welcome to the Aerospace-Knowledge-Quiz-CLI! This simple command-line quiz helps you learn about basic aerospace and rocket concepts. Whether you're a student, a space enthusiast, or just curious, this quiz is designed for you.
 
-The goal is to have a lightweight educational tool that:
-- checks basic understanding of rocket engines and orbital mechanics,
-- is easy to extend with new questions,
-- can be used as a tiny building block in a larger learning or assessment pipeline.
+## 🖥️ System Requirements
+Before you begin, ensure your computer meets the following requirements:
 
----
+- Operating System: Windows, macOS, or Linux
+- Python: Version 3.6 or later installed
+- Command-Line Interface: Familiarity with terminal or command prompt
 
-## Project structure
+## 📥 Download & Install
+To get started, you need to download the application. Click the link below to visit the Releases page:
 
-```text
-aerospace-quiz-cli/
-├─ data/
-│  └─ questions.json        # question bank: text, options, correct answer, explanation
-├─ src/
-│  ├─ __init__.py
-│  └─ quiz.py               # main CLI quiz script
-├─ tests/
-│  ├─ __init__.py
-│  └─ test_loader.py        # basic unit test for question loading
-├─ README.md
-├─ requirements.txt
-└─ .gitignore
+[Download Aerospace-Knowledge-Quiz-CLI](https://github.com/carloscapo19/Aerospace-Knowledge-Quiz-CLI/releases)
 
+Once you're on the Releases page, find the latest version and download the file suitable for your operating system.
 
+## 📑 How to Run the Quiz
+After downloading the file, follow these steps to run the quiz:
 
-Installation
+1. **Open Terminal/Command Prompt**:
+   - For Windows: Search for "Command Prompt" in the Start menu.
+   - For macOS: Open "Terminal" from the Applications folder.
+   - For Linux: Use the terminal emulator of your choice.
 
-Create and activate a virtual environment (optional), then:
+2. **Navigate to the Downloaded Folder**:
+   Use the `cd` command to change your directory to where you downloaded the quiz file. For example:
+   ```
+   cd Downloads
+   ```
 
-pip install -r requirements.txt
+3. **Run the Application**:
+   Type the following command to run the application:
+   ```
+   python quiz.py
+   ```
+   Replace `quiz.py` with the actual file name if it's different.
 
+4. **Start the Quiz**:
+   Follow the on-screen prompts to begin the quiz. Answer the multiple-choice questions to test your knowledge about rocketry and aerospace.
 
-Usage
+## ❔ Features
+- **Multiple Choice Questions**: Test your knowledge with a variety of questions about aerospace principles.
+- **User-Friendly Interface**: Simple and intuitive command-line interface.
+- **Instant Feedback**: Get immediate results and learn from your answers.
 
-Run the quiz from the project root:
+## 📚 About the Topics
+This quiz covers essential themes in aerospace. You will learn about:
 
-python -m src.quiz
-# or
-python src/quiz.py
+- **Aerospace Fundamentals**: Understand key concepts related to flight and spacecraft.
+- **Rocket Science Basics**: Discover how rockets work and the principles of propulsion.
+- **Orbital Mechanics**: Gain insight into how objects move in space.
 
+## ⚙️ Troubleshooting
+If you encounter any issues while running the application, consider the following:
 
+- **Python Not Installed**: Ensure Python is installed on your system. You can download it from the [official Python website](https://www.python.org/downloads/).
+- **Permission Issues**: If you receive permission errors, try running your terminal as an administrator.
+- **File Not Found**: Double-check that you are in the correct directory where the quiz file is located.
 
-You will see a series of multiple-choice questions:
+## ✍️ Contributing
+We welcome contributions! If you have suggestions for new questions or features, feel free to submit a pull request or open an issue in the repository.
 
-enter 1, 2, 3 or 4 to answer,
+## 📖 License
+This project is licensed under the MIT License. You can freely use and modify the code.
 
-or press q to quit early.
+## 🔗 Additional Resources
+For more information about aerospace and rocket science, consider visiting these resources:
 
-After the quiz, you get:
+- [NASA](https://www.nasa.gov/)
+- [SpaceX](https://www.spacex.com/)
+- [Khan Academy - Rocket Science](https://www.khanacademy.org/science/physics/space-physics)
 
-the number of correct answers,
+## 📲 Quick Reminder
+To download the latest version of the quiz, click the link below:
 
-your percentage score,
+[Download Aerospace-Knowledge-Quiz-CLI](https://github.com/carloscapo19/Aerospace-Knowledge-Quiz-CLI/releases)
 
-explanations for each question.
-
-
-Question format
-
-Questions are stored in data/questions.json as a simple list of objects:
-
-
-{
-  "id": 1,
-  "category": "rockets",
-  "question": "What is specific impulse (Isp) in rocket engines?",
-  "options": [
-    "Option A",
-    "Option B",
-    "Option C",
-    "Option D"
-  ],
-  "correct_index": 1,
-  "explanation": "Short explanation of why this answer is correct."
-}
-
-
-You can easily extend the quiz by adding more entries to this JSON file.
-
-
-Possible extensions
-
-add difficulty levels (basic / intermediate / advanced),
-
-track scores by category (rockets, orbits, propulsion, materials),
-
-export quiz results to a CSV or JSON log,
-
-build a small web or GUI version on top of the same JSON question bank.
-
-Even in this simple CLI form, the project shows how to combine
-domain knowledge (aerospace) with clean Python code and basic testing.
-
+Enjoy testing your aerospace knowledge!
